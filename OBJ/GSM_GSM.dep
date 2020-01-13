@@ -1,0 +1,738 @@
+Dependencies for Project 'GSM', Target 'GSM': (DO NOT MODIFY !)
+F (.\main.c)(0x5ACF8481)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB0DEB)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\KEY\key.h)(0x532ADF6A)
+I (..\USMART\usmart.h)(0x531AE45A)
+I (..\USMART\usmart_str.h)(0x531AE46D)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+I (..\HARDWARE\SD\MMC_SD.h)(0x5321BCBA)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\TEXT\fontupd.h)(0x5322D5CE)
+I (..\TEXT\text.h)(0x5322D5CE)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\USART2\usart2.h)(0x53C73BE7)
+I (..\SIM900A\sim900a.h)(0x533CF958)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+I (F:\Keil_5_14\ARM\ARMCC\include\time.h)(0x5ACC3633)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\HTTP\http.h)(0x5ACF7ED4)
+I (..\SIM900A\sim900a_init.h)(0x5ACF8162)
+I (..\ADC\adc_rand.h)(0x5ACF7AAE)
+I (..\ADC\sim900a_land.h)(0x5ACF7EF5)
+F (.\stm32f10x_it.c)(0x4EBEACB0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x4D99A426)
+I (stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\system_stm32f10x.c)(0x4D99A426)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\LED\led.c)(0x532ADB86)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\KEY\key.c)(0x532ADFEE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x532ADF6A)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+F (..\HARDWARE\LCD\lcd.c)(0x55CB0E57)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB0DEB)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\font.h)(0x52C52FE8)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+F (..\HARDWARE\SPI\spi.c)(0x53C7477B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x532D22BA)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\FLASH\flash.c)(0x55E3F37C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\flash.o --omf_browse ..\obj\flash.crf --depend ..\obj\flash.d)
+I (..\HARDWARE\FLASH\flash.h)(0x55E3F37C)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\SPI\spi.h)(0x532D22BA)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+F (..\HARDWARE\SD\MMC_SD.C)(0x532D3676)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mmc_sd.o --omf_browse ..\obj\mmc_sd.crf --depend ..\obj\mmc_sd.d)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\HARDWARE\SPI\spi.h)(0x532D22BA)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\HARDWARE\IIC\myiic.c)(0x4E76B334)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+F (..\HARDWARE\24CXX\24cxx.c)(0x531C712B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\24cxx.o --omf_browse ..\obj\24cxx.crf --depend ..\obj\24cxx.d)
+I (..\HARDWARE\24CXX\24cxx.h)(0x531C6D4F)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+F (..\HARDWARE\TOUCH\touch.c)(0x55CB0EC5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\touch.o --omf_browse ..\obj\touch.crf --depend ..\obj\touch.d)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB0DEB)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (F:\Keil_5_14\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\HARDWARE\24CXX\24cxx.h)(0x531C6D4F)
+I (..\HARDWARE\IIC\myiic.h)(0x4E819894)
+F (..\HARDWARE\TOUCH\ctiic.c)(0x531E8A8E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ctiic.o --omf_browse ..\obj\ctiic.crf --depend ..\obj\ctiic.d)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+F (..\HARDWARE\TOUCH\ott2001a.c)(0x55CB0F9D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ott2001a.o --omf_browse ..\obj\ott2001a.crf --depend ..\obj\ott2001a.d)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+F (..\HARDWARE\USART2\usart2.c)(0x5AC5D928)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart2.o --omf_browse ..\obj\usart2.crf --depend ..\obj\usart2.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\USART2\usart2.h)(0x53C73BE7)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\HARDWARE\TOUCH\ft5206.c)(0x55CB0C5D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ft5206.o --omf_browse ..\obj\ft5206.crf --depend ..\obj\ft5206.d)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\HARDWARE\TOUCH\gt9147.c)(0x55CB092E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gt9147.o --omf_browse ..\obj\gt9147.crf --depend ..\obj\gt9147.d)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\HARDWARE\TOUCH\ctiic.h)(0x531E8A9A)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\SYSTEM\delay\delay.c)(0x5AC5EF3F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\sys\sys.c)(0x55018498)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\usart\usart.c)(0x5ACEAC63)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\MALLOC\malloc.c)(0x5325AC92)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\malloc.o --omf_browse ..\obj\malloc.crf --depend ..\obj\malloc.d)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FATFS\exfuns\exfuns.c)(0x53228404)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\exfuns.o --omf_browse ..\obj\exfuns.crf --depend ..\obj\exfuns.d)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+F (..\FATFS\exfuns\fattester.c)(0x53228C4A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\fattester.o --omf_browse ..\obj\fattester.crf --depend ..\obj\fattester.d)
+I (..\FATFS\exfuns\fattester.h)(0x53228AC2)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USMART\usmart.h)(0x531AE45A)
+I (..\USMART\usmart_str.h)(0x531AE46D)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\FATFS\exfuns\exfuns.h)(0x53228404)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\FATFS\src\diskio.c)(0x55E3F363)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\diskio.o --omf_browse ..\obj\diskio.crf --depend ..\obj\diskio.d)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\HARDWARE\SD\mmc_sd.h)(0x5321BCBA)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\FLASH\flash.h)(0x55E3F37C)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+F (..\FATFS\src\ff.c)(0x52D56672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ff.o --omf_browse ..\obj\ff.crf --depend ..\obj\ff.d)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+F (..\FATFS\exfuns\mycc936.c)(0x5322D5DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\mycc936.o --omf_browse ..\obj\mycc936.crf --depend ..\obj\mycc936.d)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\TEXT\fontupd.h)(0x5322D5CE)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\FLASH\flash.h)(0x55E3F37C)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+F (..\TEXT\fontupd.c)(0x532D48FC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\fontupd.o --omf_browse ..\obj\fontupd.crf --depend ..\obj\fontupd.d)
+I (..\TEXT\fontupd.h)(0x5322D5CE)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+I (..\HARDWARE\FLASH\flash.h)(0x55E3F37C)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB0DEB)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+F (..\TEXT\text.c)(0x5322D5CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\text.o --omf_browse ..\obj\text.crf --depend ..\obj\text.d)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\TEXT\fontupd.h)(0x5322D5CE)
+I (..\HARDWARE\FLASH\flash.h)(0x55E3F37C)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB0DEB)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\TEXT\text.h)(0x5322D5CE)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\SIM900A\sim900a.c)(0x5AC5E701)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sim900a.o --omf_browse ..\obj\sim900a.crf --depend ..\obj\sim900a.d)
+I (..\SIM900A\sim900a.h)(0x533CF958)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x50517A82)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC82B)
+I (..\HARDWARE\LED\led.h)(0x532ACAF6)
+I (..\HARDWARE\KEY\key.h)(0x532ADF6A)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB0DEB)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\FLASH\flash.h)(0x55E3F37C)
+I (..\HARDWARE\TOUCH\touch.h)(0x55CB04F6)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5479BE9F)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x544F934F)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x55CB0BAF)
+I (..\MALLOC\malloc.h)(0x53C73C74)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\TEXT\text.h)(0x5322D5CE)
+I (..\TEXT\fontupd.h)(0x5322D5CE)
+I (..\HARDWARE\USART2\usart2.h)(0x53C73BE7)
+I (..\FATFS\src\ff.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B2)
+F (..\README.TXT)(0x55CC2219)()
+F (..\ADC\stm32f10x_adc.c)(0x5ACC4E64)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
+I (..\ADC\stm32f10x_adc.h)(0x5ACC4E9E)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\ADC\adc_rand.c)(0x5ACF7B41)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\adc_rand.o --omf_browse ..\obj\adc_rand.crf --depend ..\obj\adc_rand.d)
+I (..\ADC\adc_rand.h)(0x5ACF7AAE)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\ADC\stm32f10x_adc.h)(0x5ACC4E9E)
+F (..\ADC\sim900a_land.c)(0x5ACF80E9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sim900a_land.o --omf_browse ..\obj\sim900a_land.crf --depend ..\obj\sim900a_land.d)
+I (..\ADC\sim900a_land.h)(0x5ACF7EF5)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SIM900A\sim900a.h)(0x533CF958)
+I (..\HARDWARE\USART2\usart2.h)(0x53C73BE7)
+F (..\HTTP\http.c)(0x5ACF80A5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\LCD -I..\HARDWARE\KEY -I..\HARDWARE\SPI -I..\HARDWARE\SD -I..\MALLOC -I..\USMART -I..\HARDWARE\FLASH -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\HARDWARE\24CXX -I..\HARDWARE\TIMER -I..\HARDWARE\TOUCH -I..\HARDWARE\USART2 -I..\SIM900A -I..\HARDWARE\IIC -I..\ADC -I..\HTTP-I C:\Users\kc\Desktop\我的SIM900a\SIM900a_4_12_排版\USER\RTE-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\Keil_5_14\ARM\CMSIS\Include-I F:\Keil_5_14\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\http.o --omf_browse ..\obj\http.crf --depend ..\obj\http.d)
+I (..\HTTP\http.h)(0x5ACF7ED4)
+I (..\SYSTEM\sys\sys.h)(0x550F951B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53C74AC3)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x50515FBA)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415E)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (F:\Keil_5_14\ARM\ARMCC\include\string.h)(0x5475F300)
+I (F:\Keil_5_14\ARM\ARMCC\include\stdio.h)(0x5475F300)

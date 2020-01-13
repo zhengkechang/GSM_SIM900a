@@ -1,0 +1,64 @@
+#define SERVER_ADDR "jjfaedp.hedevice.com" //OneNet EDP 服务器地址 
+#define SERVER_PORT 876 //OneNet EDP 服务器端口 
+#define DEV_ID "device_id" //改成你的设备ID 
+#define API_KEY "api-key" //改成你的API-Key 
+void sendCmd(char* cmd, char* result) 
+{ 
+	int i = 0; 
+	while(1) 
+	{ 
+		RS232_DMA_Send(cmd, strlen(cmd)); 
+		Delay(1000); 
+		i++; 
+		if((NULL != strstr(RS232_buff, result))|| (i >=TRYCNT)) 
+		{ 
+			GPIO_ToggleBits(LED4); 
+			break; 
+		} 
+	} 
+} 
+int main(void) 
+{
+	EdpPacket* send_pkg; 
+	char str[] = "{\"datastreams\":[{\"id\":\"sys_time\",\"datapoints\":[{\"value\":110}]}]}";
+	cJSON *save_json, *desc_json; USART_232_Configuration();//初始化232串口
+	RS232_DMA_Init();//初始化串口的DMA传输方式
+	NVIC_Configuration();//初始化中断
+	LED_Configuration();//初始化LED指示灯 
+	SysTick_Configuration();//时钟设置 
+	
+/***************如果用GPRS(SIM900A)和服务器建立TCP连接，用如下代码****************/ 
+	sendCmd(INQERYSIGNAL, "CHINA MOBILE");//查询GPRS是否注册到网络 
+	Delay(1000); sendCmd(SETLOCALPORT, "OK");//设置本地端口 
+	Delay(1000); sendCmd(CIPMODE, "OK");//设置数据透传模式 
+	Delay(1000); sendCmd(MAKETCPCONNECT, "CONNECT");//建立TCP连接 Delay(1000); 
+/*****************************GPRS SET END*************************************/ 
+
+/***************如果用WIFI(ESP2866)和服务器建立TCP连接，用如下代码**************** 
+	sendCmd("AT+CWMODE=3\r", "OK");//选择WIFI应用模式 
+	Delay(500); sendCmd("AT+RST\r", "OK");//重置模块 
+	Delay(500); sendCmd(“AT+CWJAP=\"**SSID**\",\"**PASSWORD\"**\r, "OK");//加入AP 
+	Delay(500); sendCmd("AT+CIPSTART=\"TCP\",\"183.230.40.39\",876\r", "CONNECT OK");//建立TCP连接 
+	Delay(500); sendCmd("AT+CIPMODE=1\r", "OK")//开启透传模; Delay(500); sendCmd("AT+CIPSEND\r", ">");//开始发送数据 
+*****************************WIFI SET END**************************************/ 
+
+	send_pkg = PacketConnect1(DEV_ID, API_KEY);//创建连接请求包 
+	RS232_DMA_Send(send_pkg->_data, send_pkg->_write_pos);//发送设备连接请求 
+	Delay(2000);//等待数据发送完成，此处需加延时 DeleteBuffer(&send_pkg);//释放请求包 
+	Delay(2000); 
+	while(1) 
+	{ 
+		save_json=cJSON_Parse(str);//解析JSON数据，str内容可以调用库产生，为了便于说明，此处直接产生 
+		send_pkg = PacketSavedataJson(DEV_ID, save_json);//产生JSON数据包 
+		if(NULL == send_pkg) 
+		{ 
+			cJSON_Delete(save_json); 
+			return -1; 
+		} 
+		cJSON_Delete(save_json);//释放内存 
+		RS232_DMA_Send(send_pkg->_data, send_pkg->_write_pos);//发送JSON数据包 
+		Delay(3000); 
+		GPIO_ToggleBits(LED4);//指示灯指示 
+		DeleteBuffer(&send_pkg);//释放数据包内存 
+	}
+}
